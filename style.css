@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fce7ea;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+.box {
+  border-radius: 10px 10px 0 0;
+  width: 250px;
+  margin: auto;
+  text-align: left;
+  padding: 2% 3% 2% 3%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e34170), to(#edbcd6));
+  background: linear-gradient(#e34170, #edbcd6);
+  -webkit-box-shadow: #d4d4d4 12px 12px 12px;
+          box-shadow: #d4d4d4 12px 12px 12px;
+}
+
+.box .box-top .box-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box .box-top .box-head .box-logo img {
+  width: 50px;
+}
+
+.box .box-top .box-head .box-price {
+  font-size: 1.4em;
+  font-weight: 300;
+}
+
+.box .box-top h4 {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 1% 0 1% 0;
+}
+
+.box .box-top p {
+  font-size: 0.8em;
+  font-weight: 300;
+  padding: 0;
+}
+
+.box .box-top .shoes {
+  width: 130%;
+  -webkit-transform: rotateZ(30deg) rotateY(180deg) translateX(-70px);
+          transform: rotateZ(30deg) rotateY(180deg) translateX(-70px);
+}
+
+.box-bottom {
+  background: white;
+  -webkit-box-shadow: #d4d4d4 12px 12px 12px;
+          box-shadow: #d4d4d4 12px 12px 12px;
+  border-radius: 0 0 10px 10px;
+  padding: 40px 3% 40px 3%;
+  width: 250px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.box-bottom a {
+  font-weight: 500;
+  text-decoration: none;
+  padding: 4% 10%;
+  color: #e34170;
+  border: #edbcd6 solid 2px;
+  border-radius: 10px;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+.box-bottom a:hover {
+  -webkit-transition: 400ms;
+  transition: 400ms;
+  border: #fcb4ba solid 2px;
+  color: #FFFFFF;
+  background-color: #fcb4ba;
+}
+/*# sourceMappingURL=style.css.map */

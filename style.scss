@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+$white : #FFFFFF;
+$pink : #e34170;
+$pink-light : #edbcd6;
+$white-medium : #fce7ea;
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: $white-medium;
+  color: $white;
+  font-size: 16px;
+}
+
+//Partie suppérieur de la box
+.box {
+  border-radius: 10px 10px 0 0;
+  width: 250px;
+  margin: auto;
+  text-align: left;
+  padding: 2% 3% 2% 3%;
+  background: linear-gradient($pink, $pink-light);
+  box-shadow : rgb(212, 212, 212) 12px 12px 12px;
+
+  // Parties contenant les textes et images
+  .box-top {
+
+    //Logo et prix
+    .box-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .box-logo {
+        img {
+          width: 50px;
+        }
+      }
+      .box-price {
+        font-size: 1.4em;
+        font-weight: 300;
+      }
+    }
+
+    //Desciption produit avec la photo de la chaussure
+    h4 {
+      text-transform: uppercase;
+      font-size: 1.2em;
+      font-weight: 400;
+      margin : 1% 0 1% 0;
+    }
+    p {
+      font-size: 0.8em;
+      font-weight: 300;
+      padding: 0;
+    }
+    .shoes{
+      width: 130%;
+      transform: rotateZ(30deg) rotateY(180deg) translateX(-70px);
+    }
+  }
+}
+
+//Partie inférieure de l'image contenant le bouton
+.box-bottom {
+  background : white;
+  box-shadow : rgb(212, 212, 212) 12px 12px 12px;
+  border-radius: 0 0 10px 10px;
+  padding: 40px 3% 40px 3%;
+  width: 250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a {
+    font-weight: 500;
+    text-decoration: none;
+    padding: 4% 10%;
+    color: $pink;
+    border : $pink-light solid 2px;
+    border-radius : 10px;
+    transition: 400ms;
+  }
+  a:hover {
+    transition: 400ms;
+    border: rgb(252, 180, 186) solid 2px;
+    color: $white;
+    background-color: rgb(252, 180, 186);
+  }
+}
